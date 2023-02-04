@@ -1,0 +1,15 @@
+{
+    "name": "user/back",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Yakov",
+            "email": "yakoff.swidersky@gmail.com"
+        }
+    ],
+    "require": {}
+}

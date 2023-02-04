@@ -1,0 +1,39 @@
+*{
+    margin : 0;
+}
+
+.main{
+    width: 100%;
+    max-width: 900px;
+    min-height: 100vh;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+}
+
+.items{
+    background-color: rgb(236, 236, 236, .5);
+    overflow-y: scroll;
+    max-height: 85vh;
+}
+
+.highlight{
+    background-color: bisque;
+}
+
+@media screen and (max-width: 575px){
+    .main{
+        padding-top: 0 !important;
+    }
+
+    .menu{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .items{
+        max-height: 80vh;
+    }
+}
